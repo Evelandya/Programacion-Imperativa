@@ -9,7 +9,7 @@ let altura = prompt("Ingresa la altura (en metros) de la persona: ");
 let peso = prompt("Ingresa el peso (en kilogramos) de la persona: ");
 
 //Función
-let calculadorIMC = (alt,pes) => pes / (alt*2);
+let calculadorIMC = (alt,pes) => pes / (alt**2);
 
 ////Llamada a la función y asignacion a la variable "IMC"
 let IMC = calculadorIMC(altura,peso);
